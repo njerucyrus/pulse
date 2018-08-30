@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SelectBloodGroupFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Select your blood group"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="21sp"
+                android:textStyle="normal" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorDivider" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_a_plus"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_margin="8dp"
+                    android:adjustViewBounds="true"
+                    android:padding="2dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/aplus" />
+
+                <ImageView
+                    android:id="@+id/img_b_plus"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_margin="8dp"
+                    android:adjustViewBounds="true"
+                    android:padding="2dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bplus" />
+
+                <ImageView
+                    android:id="@+id/img_o_plus"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_margin="8dp"
+                    android:adjustViewBounds="true"
+                    android:padding="2dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/oplus" />
+
+                <ImageView
+                    android:id="@+id/img_ab_plus"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_margin="8dp"
+                    android:adjustViewBounds="true"
+                    android:padding="2dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/abplus" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_a_minus"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_margin="8dp"
+                    android:adjustViewBounds="true"
+                    android:padding="2dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/aminus" />
+
+                <ImageView
+                    android:id="@+id/img_b_minus"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_margin="8dp"
+                    android:adjustViewBounds="true"
+                    android:padding="2dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bminus" />
+
+                <ImageView
+                    android:id="@+id/img_o_minus"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_margin="8dp"
+                    android:adjustViewBounds="true"
+                    android:padding="2dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ominus" />
+
+                <ImageView
+                    android:id="@+id/img_ab_minus"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_margin="8dp"
+                    android:adjustViewBounds="true"
+                    android:padding="2dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/abminus" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    </RelativeLayout>
+
+</FrameLayout>
